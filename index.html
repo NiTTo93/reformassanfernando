@@ -19,124 +19,129 @@
   <link rel="stylesheet" href="css/style.css?v=5">
 
   <!-- Schema LocalBusiness -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "HomeAndConstructionBusiness",
-    "name": "Islareformas",
-    "description": "Empresa de reformas en San Fernando, Cádiz. Especialistas en reformas integrales, cocinas, baños y todo tipo de obras.",
-    "url": "https://reformassanfernando.com",
-    "telephone": "+34-856-634-028",
-    "email": "info@islareformas.es",
-    "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "4 Calle Almte. Faustino Ruiz",
-        "addressLocality": "San Fernando",
-        "addressRegion": "Cádiz",
-        "postalCode": "11100",
-        "addressCountry": "ES"
+  <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "HomeAndConstructionBusiness",
+  "name": "Islareformas",
+  "description": "Empresa de reformas en San Fernando, Cádiz. Especialistas en reformas integrales, cocinas, baños y todo tipo de obras.",
+  "url": "https://reformassanfernando.com",
+  "telephone": "+34-856-634-028",
+  "email": "info@islareformas.es",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "4 Calle Almte. Faustino Ruiz",
+    "addressLocality": "San Fernando",
+    "addressRegion": "Cádiz",
+    "postalCode": "11100",
+    "addressCountry": "ES"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 36.4771,
+    "longitude": -6.1985
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "08:00",
+      "closes": "19:00"
     },
-    "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 36.4771,
-        "longitude": -6.1985
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "09:00",
+      "closes": "14:00"
+    }
+  ],
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "San Fernando"
     },
-    "openingHoursSpecification": [
-        {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": [
-                "Monday",
-                "Tuesday",
-                "Wednesday",
-                "Thursday",
-                "Friday"
-            ],
-            "opens": "08:00",
-            "closes": "19:00"
-        },
-        {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": "Saturday",
-            "opens": "09:00",
-            "closes": "14:00"
-        }
-    ],
-    "areaServed": [
-        {
-            "@type": "City",
-            "name": "San Fernando"
-        },
-        {
-            "@type": "City",
-            "name": "Cádiz"
-        },
-        {
-            "@type": "City",
-            "name": "El Puerto de Santa María"
-        },
-        {
-            "@type": "City",
-            "name": "Chiclana de la Frontera"
-        }
-    ],
-    "sameAs": [
-        "https://www.google.com/maps/search/Islareformas+San+Fernando"
-    ],
-    "review": [
-        {
-            "@type": "Review",
-            "reviewBody": "Contratamos a Islareformas para la reforma integral de nuestro piso en San Fernando y el resultado fue espectacular. Puntuales, limpios y muy profesionales. 100% recomendables.",
-            "author": {
-                "@type": "Person",
-                "name": "María García"
-            },
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5",
-                "bestRating": "5"
-            },
-            "itemReviewed": {
-                "@type": "HomeAndConstructionBusiness",
-                "name": "Islareformas"
-            }
-        },
-        {
-            "@type": "Review",
-            "reviewBody": "Renovaron nuestra cocina en tiempo récord y con un acabado impecable. El presupuesto fue exactamente el pactado, sin sorpresas. Muy contentos con el trabajo.",
-            "author": {
-                "@type": "Person",
-                "name": "Antonio López"
-            },
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5",
-                "bestRating": "5"
-            },
-            "itemReviewed": {
-                "@type": "HomeAndConstructionBusiness",
-                "name": "Islareformas"
-            }
-        },
-        {
-            "@type": "Review",
-            "reviewBody": "Reforma de baño completa en menos de una semana. El equipo de Islareformas fue muy profesional y el resultado superó nuestras expectativas. Totalmente recomendados.",
-            "author": {
-                "@type": "Person",
-                "name": "Carmen Romero"
-            },
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5",
-                "bestRating": "5"
-            },
-            "itemReviewed": {
-                "@type": "HomeAndConstructionBusiness",
-                "name": "Islareformas"
-            }
-        }
-    ]
-}
-  </script>
+    {
+      "@type": "City",
+      "name": "Cádiz"
+    },
+    {
+      "@type": "City",
+      "name": "El Puerto de Santa María"
+    },
+    {
+      "@type": "City",
+      "name": "Chiclana de la Frontera"
+    }
+  ],
+  "sameAs": [
+    "https://www.google.com/maps/search/Islareformas+San+Fernando"
+  ],
+  "review": [
+    {
+      "@type": "Review",
+      "reviewBody": "Contratamos a Islareformas para la reforma integral de nuestro piso en San Fernando y el resultado fue espectacular. Puntuales, limpios y muy profesionales. 100% recomendables.",
+      "author": {
+        "@type": "Person",
+        "name": "María García"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "itemReviewed": {
+        "@type": "HomeAndConstructionBusiness",
+        "name": "Islareformas"
+      }
+    },
+    {
+      "@type": "Review",
+      "reviewBody": "Renovaron nuestra cocina en tiempo récord y con un acabado impecable. El presupuesto fue exactamente el pactado, sin sorpresas. Muy contentos con el trabajo.",
+      "author": {
+        "@type": "Person",
+        "name": "Antonio López"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "itemReviewed": {
+        "@type": "HomeAndConstructionBusiness",
+        "name": "Islareformas"
+      }
+    },
+    {
+      "@type": "Review",
+      "reviewBody": "Reforma de baño completa en menos de una semana. El equipo de Islareformas fue muy profesional y el resultado superó nuestras expectativas. Totalmente recomendados.",
+      "author": {
+        "@type": "Person",
+        "name": "Carmen Romero"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "itemReviewed": {
+        "@type": "HomeAndConstructionBusiness",
+        "name": "Islareformas"
+      }
+    }
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "bestRating": "5",
+    "worstRating": "1",
+    "reviewCount": "3"
+  }
+}</script>
 
   <!-- Schema WebSite -->
   <script type="application/ld+json">
