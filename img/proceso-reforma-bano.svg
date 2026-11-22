@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1060" viewBox="0 0 1000 1060" font-family="Work Sans, Arial">
+  <defs><linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#13213B"/><stop offset="1" stop-color="#1e3357"/></linearGradient></defs>
+  <rect width="1000" height="1060" fill="#ffffff"/>
+  <rect width="1000" height="150" fill="url(#hdr)"/>
+  <circle cx="76" cy="75" r="34" fill="rgba(255,255,255,.12)"/>
+  <rect x="54" y="70" width="44" height="16" rx="8" fill="#fff" opacity=".9"/><rect x="58" y="86" width="4" height="12" fill="#fff" opacity=".9"/><rect x="90" y="86" width="4" height="12" fill="#fff" opacity=".9"/><rect x="62" y="48" width="12" height="18" rx="2" fill="#f5b73d"/><path d="M 78 52 L 96 52" stroke="#fff" stroke-width="3"/><circle cx="96" cy="52" r="3" fill="#f5b73d"/>
+  <text x="130" y="62" font-family="Sora, Arial" font-size="30" font-weight="700" fill="#ffffff">Reforma de baño paso a paso</text>
+  <text x="130" y="96" font-size="16" fill="#9fb0cd">Tu baño nuevo en 10-15 días laborables</text>
+  <text x="130" y="122" font-size="13" fill="#6c82a8" letter-spacing="1">ISLAREFORMAS · SAN FERNANDO DE LA BAHÍA</text>
+  <rect x="60" y="205" width="880" height="130" rx="16" fill="#EEF3FC"/>
+  <circle cx="115" cy="270" r="30" fill="#2361EB"/>
+  <text x="115" y="281" font-family="Sora, Arial" font-size="26" font-weight="800" fill="#ffffff" text-anchor="middle">1</text>
+  <text x="170" y="257" font-family="Sora, Arial" font-size="20" font-weight="700" fill="#13213B">Visita y toma de medidas</text>
+  <text x="170" y="287" font-size="15.5" fill="#5d6b78">Medimos tu baño exactamente y evaluamos bajantes, calentador y toma eléctrica — lo</text>
+  <text x="170" y="311" font-size="15.5" fill="#5d6b78">que define el presupuesto real.</text>
+  <path d="M 500 339 L 500 359" stroke="#2361EB" stroke-width="4"/>
+  <path d="M 492 353 L 500 363 L 508 353" fill="none" stroke="#2361EB" stroke-width="4"/>
+  <rect x="60" y="355" width="880" height="130" rx="16" fill="#EEF3FC"/>
+  <circle cx="115" cy="420" r="30" fill="#2361EB"/>
+  <text x="115" y="431" font-family="Sora, Arial" font-size="26" font-weight="800" fill="#ffffff" text-anchor="middle">2</text>
+  <text x="170" y="407" font-family="Sora, Arial" font-size="20" font-weight="700" fill="#13213B">Presupuesto cerrado</text>
+  <text x="170" y="437" font-size="15.5" fill="#5d6b78">Desglose completo: plato o bañera, mueble, grifería, azulejos, electricidad y mano</text>
+  <text x="170" y="461" font-size="15.5" fill="#5d6b78">de obra. Sin sorpresas.</text>
+  <path d="M 500 489 L 500 509" stroke="#2361EB" stroke-width="4"/>
+  <path d="M 492 503 L 500 513 L 508 503" fill="none" stroke="#2361EB" stroke-width="4"/>
+  <rect x="60" y="505" width="880" height="130" rx="16" fill="#EEF3FC"/>
+  <circle cx="115" cy="570" r="30" fill="#2361EB"/>
+  <text x="115" y="581" font-family="Sora, Arial" font-size="26" font-weight="800" fill="#ffffff" text-anchor="middle">3</text>
+  <text x="170" y="557" font-family="Sora, Arial" font-size="20" font-weight="700" fill="#13213B">Demolición y evacuación</text>
+  <text x="170" y="587" font-size="15.5" fill="#5d6b78">Retiramos la antigua instalación y sacamos los escombros del día: tu casa queda</text>
+  <text x="170" y="611" font-size="15.5" fill="#5d6b78">limpia cada tarde.</text>
+  <path d="M 500 639 L 500 659" stroke="#2361EB" stroke-width="4"/>
+  <path d="M 492 653 L 500 663 L 508 653" fill="none" stroke="#2361EB" stroke-width="4"/>
+  <rect x="60" y="655" width="880" height="130" rx="16" fill="#EEF3FC"/>
+  <circle cx="115" cy="720" r="30" fill="#2361EB"/>
+  <text x="115" y="731" font-family="Sora, Arial" font-size="26" font-weight="800" fill="#ffffff" text-anchor="middle">4</text>
+  <text x="170" y="707" font-family="Sora, Arial" font-size="20" font-weight="700" fill="#13213B">Instalación de elementos</text>
+  <text x="170" y="737" font-size="15.5" fill="#5d6b78">Fontanería nueva, electricidad, plato/mueble/mampara, azulejos y pintura — por</text>
+  <text x="170" y="761" font-size="15.5" fill="#5d6b78">este orden, sin atajos.</text>
+  <path d="M 500 789 L 500 809" stroke="#2361EB" stroke-width="4"/>
+  <path d="M 492 803 L 500 813 L 508 803" fill="none" stroke="#2361EB" stroke-width="4"/>
+  <rect x="60" y="805" width="880" height="130" rx="16" fill="#EEF3FC"/>
+  <circle cx="115" cy="870" r="30" fill="#2361EB"/>
+  <text x="115" y="881" font-family="Sora, Arial" font-size="26" font-weight="800" fill="#ffffff" text-anchor="middle">5</text>
+  <text x="170" y="857" font-family="Sora, Arial" font-size="20" font-weight="700" fill="#13213B">Entrega en 10-15 días</text>
+  <text x="170" y="887" font-size="15.5" fill="#5d6b78">Revisión conjunta final, siliconados sellados y garantía por escrito de todos los</text>
+  <text x="170" y="911" font-size="15.5" fill="#5d6b78">acabados.</text>
+  <rect y="970" width="1000" height="90" fill="#13213B"/>
+  <text x="60" y="1008" font-family="Sora, Arial" font-size="17" font-weight="700" fill="#ffffff">🔨 Islareformas · Reforma de baño paso a paso</text>
+  <text x="940" y="1008" font-size="15" fill="#9fb0cd" text-anchor="end">San Fernando · 📞 856 63 40 28</text>
+</svg>
