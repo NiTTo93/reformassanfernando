@@ -72,7 +72,7 @@ a { color: inherit; text-decoration: none; }
   color: rgba(255,255,255,0.85);
   font-size: 0.875rem;
   font-weight: 500;
-  padding: 6px 12px;
+  padding: 6px 9px;
   border-radius: 6px;
   transition: color 0.2s, background 0.2s;
   white-space: nowrap;
@@ -787,10 +787,9 @@ textarea.form-control { resize: vertical; min-height: 90px; }
    RESPONSIVE
    ============================================ */
 
-@media (max-width: 1024px) {
-  .footer-grid { grid-template-columns: 1fr 1fr; gap: 32px; }
-  .content-inner { grid-template-columns: 1fr; }
-  .sidebar-form { position: static; }
+/* Menú hamburguesa: con 10 items el nav necesita ~1200px de viewport, así que
+   el menú móvil arranca en 1279px (antes 1024). El resto del layout sigue en 1024. */
+@media (max-width: 1279px) {
   .nav { display: none; position: absolute; top: 70px; left: 0; right: 0; background: var(--primary-dark); flex-direction: column; padding: 16px; gap: 4px; }
   .nav.open { display: flex; }
   .nav a { padding: 12px 16px; border-radius: 8px; font-size: 1rem; }
@@ -798,6 +797,12 @@ textarea.form-control { resize: vertical; min-height: 90px; }
   .hamburger { display: flex; }
   .header-phone { display: none; }
   .header-cta .btn { display: none; }
+}
+
+@media (max-width: 1024px) {
+  .footer-grid { grid-template-columns: 1fr 1fr; gap: 32px; }
+  .content-inner { grid-template-columns: 1fr; }
+  .sidebar-form { position: static; }
 }
 
 @media (max-width: 768px) {
@@ -814,4 +819,9 @@ textarea.form-control { resize: vertical; min-height: 90px; }
   .services-grid { grid-template-columns: 1fr; }
   .cta-buttons { flex-direction: column; align-items: center; }
   .footer-grid { grid-template-columns: 1fr; }
+}
+
+/* Con el teléfono visible el nav necesita ~1340px: se oculta hasta 1359px */
+@media (min-width: 1280px) and (max-width: 1359px) {
+  .header-phone { display: none; }
 }
